@@ -6,6 +6,9 @@
     function cambiar() {
         const valorColor = color.value;
         boton.style.backgroundColor = valorColor;
+        
+        valorTexto = nombre.value;
+        boton.textContent = valorTexto;
     }
     boton.addEventListener("click", cambiar);
 }
