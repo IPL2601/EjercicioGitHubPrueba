@@ -4,7 +4,8 @@
     const nombre = document.getElementById("nombre");
 
     function cambiar() {
-        
+        valorTexto = nombre.value;
+        boton.textContent = valorTexto;
     }
     boton.addEventListener("click", cambiar);
 }
